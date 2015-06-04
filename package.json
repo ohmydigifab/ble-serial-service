@@ -1,0 +1,20 @@
+{
+  "name": "serial-service",
+  "version": "0.1.0",
+  "description": "BLE (Bluetooth Low Energy) Serial Service",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "author": {
+    "name": "ohmydigifab",
+    "url" : "https://github.com/ohmydigifab"
+  },
+  "dependencies": {
+    "bleno": ">0.1.4"
+  }
+}
