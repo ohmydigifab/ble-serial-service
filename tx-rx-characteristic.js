@@ -48,7 +48,7 @@ reader.on('line', function(line) {
 	if (TxRxCharacteristic.prototype.singleton.updateValueCallback) {
 		TxRxCharacteristic.prototype.singleton.updateValueCallback(new Buffer(line + '\n', 'ascii'));
 	}
-    console.log('input>');
+	process.stdout.write('input>');
 });
 
 module.exports = TxRxCharacteristic;

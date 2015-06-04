@@ -19,5 +19,5 @@ bleno.on('advertisingStart', function(error) {
     if (!error) {
         bleno.setServices([primaryService]);
     }
-    console.log('input>');
+    process.stdout.write('input>');
 });
